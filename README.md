@@ -2,8 +2,6 @@
 
 ![brest cancer img2](https://user-images.githubusercontent.com/68149484/134877888-63061ee8-d3dd-4792-a43e-756550407eef.jpg)
 
-![breast-density-mammogram](https://user-images.githubusercontent.com/68149484/134878562-fc92117d-23cc-4529-bcf8-216154bab5e5.jpeg)
-
 # What is breast cancer? 
 Cancer occurs when changes called mutations take place in genes that regulate cell growth. The mutations let the cells divide and multiply in an uncontrolled, chaotic way. The cells keep on proliferating, producing copies that get progressively more abnormal. In most cases, the cell copies eventually end up forming a tumor.
 
@@ -18,6 +16,8 @@ A mammogram is an x-ray picture of the breast. It can be used to check for breas
 Screening mammography is the type of mammogram that checks you when you have no symptoms. It can help reduce the number of deaths from breast cancer among women ages 40 to 70. But it can also have drawbacks. Mammograms can sometimes find something that looks abnormal but isn't cancer. This leads to further testing and can cause you anxiety. Sometimes mammograms can miss cancer when it is there. It also exposes you to radiation. You should talk to your doctor about the benefits and drawbacks of mammograms. Together, you can decide when to start and how often to have a mammogram.
 
 Now while its difficult to figure out for physicians by seeing only images of x-ray that weather the tumor is toxic or not training a artificial intelligence algorithms according to the identification of tumour can be of great help.
+
+![breast-density-mammogram](https://user-images.githubusercontent.com/68149484/134878562-fc92117d-23cc-4529-bcf8-216154bab5e5.jpeg)
 
 # Project Description :-
 
