@@ -21,58 +21,7 @@ Now while its difficult to figure out for physicians by seeing only images of x-
 
 # Project Description :-
 
-a) Creators:
-
-Dr. William H. Wolberg, General Surgery Dept., University of
-Wisconsin,  Clinical Sciences Center, Madison, WI 53792
-wolberg@eagle.surgery.wisc.edu
-
-W. Nick Street, Computer Sciences Dept., University of
-Wisconsin, 1210 West Dayton St., Madison, WI 53706
-street@cs.wisc.edu  608-262-6619
-
-Olvi L. Mangasarian, Computer Sciences Dept., University of
-Wisconsin, 1210 West Dayton St., Madison, WI 53706
-olvi@cs.wisc.edu 
-b) Donor: Nick Street
-
-c) Date: November 1995
-
-Past Usage:
-first usage:
-
-W.N. Street, W.H. Wolberg and O.L. Mangasarian 
-Nuclear feature extraction for breast tumor diagnosis.
-IS&T/SPIE 1993 International Symposium on Electronic Imaging: Science
-and Technology, volume 1905, pages 861-870, San Jose, CA, 1993.
-OR literature:
-
-O.L. Mangasarian, W.N. Street and W.H. Wolberg. 
-Breast cancer diagnosis and prognosis via linear programming. 
-Operations Research, 43(4), pages 570-577, July-August 1995.
-Medical literature:
-
-W.H. Wolberg, W.N. Street, and O.L. Mangasarian. 
-Machine learning techniques to diagnose breast cancer from
-fine-needle aspirates.  
-Cancer Letters 77 (1994) 163-171.
-
-W.H. Wolberg, W.N. Street, and O.L. Mangasarian. 
-Image analysis and machine learning applied to breast cancer
-diagnosis and prognosis.  
-Analytical and Quantitative Cytology and Histology, Vol. 17
-No. 2, pages 77-87, April 1995. 
-
-W.H. Wolberg, W.N. Street, D.M. Heisey, and O.L. Mangasarian. 
-Computerized breast cancer diagnosis and prognosis from fine
-needle aspirates.  
-Archives of Surgery 1995;130:511-516.
-
-W.H. Wolberg, W.N. Street, D.M. Heisey, and O.L. Mangasarian. 
-Computer-derived nuclear features distinguish malignant from
-benign breast cytology.  
-Human Pathology, 26:792--796, 1995.
-See also: http://www.cs.wisc.edu/~olvi/uwmp/mpml.html http://www.cs.wisc.edu/~olvi/uwmp/cancer.html
+•	Cancer occurs when changes called mutations take place in genes that regulate cell growth. Breast cancer occurs when a malignant (cancerous) tumour originates in the breast. As breast cancer tumours mature, they may metastasize (spread) to other parts of the body. Now while its difficult to figure out for physicians by seeing only images of x-ray that weather the tumour is toxic or not training a artificial intelligence algorithms according to the identification of tumour can be of great help. The data set is a Computer Features dataset that is publicly available for research purpose https://www.kaggle.com/uciml/breast-cancer-wisconsin-data This dataset contains 32 features of  Attributes . Number of instances: 569  Number of attributes: 32 (ID, diagnosis, 30 real-valued input features)Attribute information1) ID number 2) Diagnosis (M = malignant, B = benign) 3-32)Ten real-valued features are computed for each cell nucleus: radius, texture, perimeter, area, smoothness, compactness,  concavity, concave point, symmetry ,fractal dimension and  the output is predicting field 2, diagnosis: B = benign, M = malignant. best predictive accuracy obtained using one separating plane in the 3-D space of Worst Area, Worst Smoothness and Mean Texture. Estimated accuracy 97.5% using repeated 10-fold cross validations. Classifier has correctly diagnosed 176 consecutive new patients as of November
 
 # Result :-
 
@@ -86,12 +35,4 @@ See also: http://www.cs.wisc.edu/~olvi/uwmp/mpml.html http://www.cs.wisc.edu/~ol
 
 # Conclusion :- 
 
-Several of the papers listed above contain detailed descriptions of how these features are computed.
-
-The mean, standard error, and "worst" or largest (mean of the three largest values) of these features were computed for each image, resulting in 30 features. For instance, field 3 is Mean Radius, field 13 is Radius SE, field 23 is Worst Radius.
-
-All feature values are recoded with four significant digits.
-
-Missing attribute values: none
-
-Class distribution: 357 benign, 212 malignant
+With these project classifier techniques are applied to Breast-cancer dataset and results are compared. Three classifier techniques with highest accuracy scores are chosen as final execution with their accuracy, cross-validation score and execution time is specified.
